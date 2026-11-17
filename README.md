@@ -1,16 +1,20 @@
-# 42cpp-workspace
+<p align="center">
+  <h1 align="center">42cpp-workspace</h1>
+  <p align="center"><b>42서울 내부 과제 비공개 규정에 따라 자체 명세로 새로 설계하고 구현한 C++98 및 C++17 시스템 프로그래밍 저장소</b></p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/language-C%2B%2B98%20%7C%20C%2B%2B17-blue?logo=cplusplus&logoColor=white" alt="Language">
+    <img src="https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey" alt="Platform">
+    <img src="https://img.shields.io/badge/build-Make%20%7C%20CMake-lightgrey" alt="Build">
+  </p>
+</p>
 
-![Language](https://img.shields.io/badge/language-C%2B%2B98%20%7C%20C%2B%2B17-blue?logo=cplusplus&logoColor=white)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS-lightgrey)
-![Build](https://img.shields.io/badge/build-Make%20%7C%20CMake-lightgrey)
-
-42 공통 과정의 C++ 과제를 변형해 다시 구현한 프로젝트를 모은 저장소입니다. 프로젝트마다 공통 조상이 없는 독립 브랜치를 쓰고, 이 브랜치(`main`)에는 이 문서만 있습니다.
+42서울 내부 과제 비공개 규정에 따라 자체 명세로 새로 설계하고 구현해 공개한 프로젝트를 모은 저장소입니다. 프로젝트마다 공통 조상이 없는 독립 브랜치를 쓰고, 이 브랜치(`main`)에는 이 문서만 있습니다.
 
 ## 프로젝트
 
 | 프로젝트 | 원 과제 | 설명 |
 | --- | --- | --- |
-| [cpp-foundation](https://github.com/seungwoo7050/42cpp-workspace/tree/cpp-foundation) | `CPP00`–`CPP09` | 객체 수명, 복사 대입, 다형성, 형 변환, 템플릿을 다루는 C++98 정적 라이브러리와 예제 프로그램 6개 |
+| [cpp-foundation](https://github.com/seungwoo7050/42cpp-workspace/tree/cpp-foundation) | `CPP00` ~ `CPP09` | 객체 수명, 복사 대입, 다형성, 형 변환, 템플릿을 다루는 C++98 정적 라이브러리와 예제 프로그램 6개 |
 | [ray-scene-tracer](https://github.com/seungwoo7050/42cpp-workspace/tree/ray-scene-tracer) | `miniRT` | `.rt` 장면의 구, 평면, 원기둥을 BVH와 멀티스레드로 ray tracing해 PPM으로 저장하는 C++17 렌더러 |
 | [irc-relay-server](https://github.com/seungwoo7050/42cpp-workspace/tree/irc-relay-server) | `ft_irc` | 단일 프로세스에서 논블로킹 TCP 연결을 다중화해 등록, 개인 메시지, 채널 메시지를 중계하는 C++17 IRC 서버 |
 
